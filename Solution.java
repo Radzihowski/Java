@@ -1,3 +1,5 @@
+package com.company;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -8,27 +10,21 @@ import java.util.regex.*;
 
 public class Solution {
 
-    static public String checkNumber(int N) {
-        if ((N % 2) != 0)
-            return "Weird";
-        else if (2 <= N  & N <= 5)
-            return "Not Weird";
-        else if (6 <= N & N <= 20)
-            return "Weird";
-        else
-            return "Not Weird";
+    public static void simpleMath(int n) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " x " + i + " = " + n * i);
+        }
     }
 
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int N = scanner.nextInt();
+        int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        checkNumber(N);
-        System.out.println(checkNumber(N));
-
         scanner.close();
+
+        simpleMath(n);
     }
 
 }
