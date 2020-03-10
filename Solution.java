@@ -1,30 +1,38 @@
-package com.company;
-
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+        import java.util.*;
 
 public class Solution {
 
-    public static void simpleMath(int n) {
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(n + " x " + i + " = " + n * i);
-        }
-    }
-
-    private static final Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
-        int n = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
 
+//        Scanner scanner = new Scanner(System.in);
+//        String myString = scanner.nextLine();
+//        char[] myCharArray;
+//        myCharArray = myString.toCharArray();
+//        for (int i = 0; i < myString.length(); i = i + 2) {
+//            System.out.print(myCharArray[i]);
+//        }
+//        System.out.print(" ");
+//        for (int i = 1; i < myString.length(); i = i + 2) {
+//            System.out.print(myCharArray[i]);
+//        }
+//        scanner.close();
+        Scanner scanner = new Scanner(System.in);
+        int  T = scanner.nextInt();
+        for (int j = 0; j < T ; j++) {
+            String myString = scanner.next();
+            char[] myCharArray;
+            myCharArray = myString.toCharArray();
+            for (int i = 0; i < myString.length(); i = i + 2) {
+                System.out.print(myCharArray[i]);
+            }
+            System.out.print(" ");
+            for (int i = 1; i < myString.length(); i = i + 2) {
+                System.out.print(myCharArray[i]);
+            }
+            System.out.println();
+        }
         scanner.close();
-
-        simpleMath(n);
     }
-
 }
