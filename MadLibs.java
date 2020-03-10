@@ -134,6 +134,10 @@ public class MadLibs {
         setAdjective2(scanner.nextLine());
     }
 
+    public Scanner getScanner() {
+        return scanner;
+    }
+
     public void enterAdverb() {
         System.out.println("Please! I really need an adverb!");
         setAdverb(scanner.nextLine());
@@ -147,7 +151,7 @@ public class MadLibs {
                     + "and ate a " + getAdjective1() + "feast for dinner. The next day I " + " ran " + getAdverb() + " to meet Mickey Mouse in his " + getNoun2()
                     + " and then that night I gazed at the " + getRandomNums() + " " + getAdjective2() + " fireworks shooting from the " + getNoun3() + ".";
         } else {
-            story = "Amanda and her frenemy " +getName()+ " went ot hte zoo last summer. The saw a huge " + getNoun1() + " and a tiny little " + getNoun2() +
+            story = "Amanda and her frenemy " + getName() + " went ot hte zoo last summer. The saw a huge " + getNoun1() + " and a tiny little " + getNoun2() +
                     ". That night" + " they decided to climb " + getAdverb() + " into the " + getNoun3() + " to get a closer look. " +
                     "The Zoo was " + getAdjective1() + " at night, but they didn't care... until " + getRandomNums() + " " + getAdjective2() +
                     " apes yelled in their faces, making Amanda and " + getName() + "sprint all the way back home.";
