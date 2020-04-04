@@ -1,38 +1,37 @@
 import java.io.*;
-        import java.util.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
 
 public class Solution {
 
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
 
-//        Scanner scanner = new Scanner(System.in);
-//        String myString = scanner.nextLine();
-//        char[] myCharArray;
-//        myCharArray = myString.toCharArray();
-//        for (int i = 0; i < myString.length(); i = i + 2) {
-//            System.out.print(myCharArray[i]);
-//        }
-//        System.out.print(" ");
-//        for (int i = 1; i < myString.length(); i = i + 2) {
-//            System.out.print(myCharArray[i]);
-//        }
-//        scanner.close();
-        Scanner scanner = new Scanner(System.in);
-        int  T = scanner.nextInt();
-        for (int j = 0; j < T ; j++) {
-            String myString = scanner.next();
-            char[] myCharArray;
-            myCharArray = myString.toCharArray();
-            for (int i = 0; i < myString.length(); i = i + 2) {
-                System.out.print(myCharArray[i]);
-            }
-            System.out.print(" ");
-            for (int i = 1; i < myString.length(); i = i + 2) {
-                System.out.print(myCharArray[i]);
-            }
-            System.out.println();
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int n = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        int[] arr = new int[n];
+
+        String[] arrItems = scanner.nextLine().split(" ");
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        for (int i = 0; i < n; i++) {
+            int arrItem = Integer.parseInt(arrItems[i]);
+            arr[i] = arrItem;
         }
+
         scanner.close();
+
+        for (int i = n-1; i >= 0; i--) {
+            System.out.print(arr[i]);
+            System.out.print(" ");
+        }
     }
 }
+
