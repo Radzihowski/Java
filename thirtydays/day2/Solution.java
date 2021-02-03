@@ -18,7 +18,7 @@ public class Solution {
 
         tip = (Double.valueOf(tip_percent) / 100) * meal_cost;
         tax = (Double.valueOf(tax_percent) / 100) * meal_cost;
-        total_cost = (int) (meal_cost + tip + tax);
+        total_cost = (int) Math.round(meal_cost + tip + tax);
 
         System.out.println(total_cost);
     }
