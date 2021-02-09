@@ -1,4 +1,4 @@
-package dictionarypractice;
+package Spam;
 
 import java.time.MonthDay;
 import java.util.HashMap;

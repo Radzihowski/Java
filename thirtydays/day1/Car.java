@@ -22,7 +22,7 @@ public class Car {
 
     public static void main(String[] args) {
         Car carry = new Car();
-        System.out.println("Family's Car:");
+        System.out.println("Family's Spam.Car:");
         carry.printVariable();
         Car aliceCar = carry;
         carry.wreckCar();

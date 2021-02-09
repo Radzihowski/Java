@@ -1,4 +1,4 @@
-//testing commit under my normal User
+package Spam;//testing commit under my normal User
 
 class CommandLineExample
 {

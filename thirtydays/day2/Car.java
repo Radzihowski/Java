@@ -71,7 +71,7 @@ public class Car {
 
 
 //        System.out.println("Christmas car: ");
-//        Car christmasPresent = new Car( 550, 2000, false);
+//        Spam.Car christmasPresent = new Spam.Car( 550, 2000, false);
 //        christmasPresent.printVariable();
 
     }

@@ -24,11 +24,11 @@ public class Main {
 //
 //    public static void main(String[] args) {
 //        Main familyCar = new Main();
-//        System.out.println("Family's Car");
+//        System.out.println("Family's Spam.Car");
 //        familyCar.printVariables();
 //        Main alliceCar = familyCar;
 //        familyCar.wreckCar();
-//        System.out.println("Alice's Car:");
+//        System.out.println("Alice's Spam.Car:");
 //        alliceCar.printVariables();
 //	}
 //next task. adding other details
@@ -39,7 +39,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main familyCar = new Main();
-        System.out.println("Family's Car:");
+        System.out.println("Family's Spam.Car:");
         familyCar.printVariables();
         familyCar.upgradeMinSpeed();
         familyCar.printVariables();

@@ -1,4 +1,4 @@
-package com.company;
+package Spam;
 
 public class Car {
 
@@ -120,15 +120,15 @@ public class Car {
     }
 
 //    public static void  main(String[] args) {
-//        System.out.println("Birthday Car");
-//        Car birthdayPresent = new Car(1, 150, 5000.545, true);
+//        System.out.println("Birthday Spam.Car");
+//        Spam.Car birthdayPresent = new Spam.Car(1, 150, 5000.545, true);
 //        birthdayPresent.printVariables();
-//        System.out.println("Christmas Car");
-//        Car christmasPresent = new Car(1, 250, 2600,false);
+//        System.out.println("Christmas Spam.Car");
+//        Spam.Car christmasPresent = new Spam.Car(1, 250, 2600,false);
 //        christmasPresent.printVariables();
 
-//        Car birthdayPresent = new Car(1, 150, 5000.545, true);
-//        System.out.println("Birthday Car v1");
+//        Spam.Car birthdayPresent = new Spam.Car(1, 150, 5000.545, true);
+//        System.out.println("Birthday Spam.Car v1");
 //        birthdayPresent.printVariables();
 //        birthdayPresent.getIn();
 //        birthdayPresent.getIn();
@@ -136,10 +136,10 @@ public class Car {
 //        birthdayPresent.getIn();
 //        System.out.println("Miles Left: " + birthdayPresent.howManyMilesTillOutOfGas());
 //        System.out.println("Max Miles: " + birthdayPresent.maxMilesPerFillUp());
-//        System.out.println("Birthday Car v2");
+//        System.out.println("Birthday Spam.Car v2");
 //        birthdayPresent.printVariables();
 //        birthdayPresent.getOut();
-//        System.out.println("Birthday Car v2");
+//        System.out.println("Birthday Spam.Car v2");
 //        birthdayPresent.printVariables();
 }
 

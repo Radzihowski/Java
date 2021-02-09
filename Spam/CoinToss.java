@@ -1,5 +1,5 @@
 
-package com.company;
+package Spam;
 
 import java.util.Random;
 

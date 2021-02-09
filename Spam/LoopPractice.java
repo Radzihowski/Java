@@ -1,4 +1,4 @@
-package com.company;
+package Spam;
 
 public class LoopPractice {
 

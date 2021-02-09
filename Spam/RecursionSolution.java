@@ -1,4 +1,4 @@
-package Recursion;
+package Spam;
 
 import java.io.*;
 import java.math.*;

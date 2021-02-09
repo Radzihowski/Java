@@ -1,4 +1,4 @@
-package Recursion;
+package Spam;
 
 public class Recursion {
 

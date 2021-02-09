@@ -1,6 +1,5 @@
-package com.company;
+package Spam;
 
-import java.io.*;
 import java.util.*;
 
 public class Person {
