@@ -1,5 +1,5 @@
 public class Xcopy {
-    public static void main( String[] args) {
+    public static void main(String[] args) {
         int orig = 42;
         Xcopy x = new Xcopy();
         int y = x.go(orig);
@@ -10,3 +10,4 @@ public class Xcopy {
         arg = arg * 2;
         return arg;
     }
+}
