@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter4;
-
 public class GoodDog {
     private int size;
 

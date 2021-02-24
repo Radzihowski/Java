@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter4;
-
 public class PoorDog {
     private int size;
     private String name;

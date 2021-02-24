@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter4;
-
 public class Xcopy {
     public static void main( String[] args) {
         int orig = 42;
@@ -12,4 +10,3 @@ public class Xcopy {
         arg = arg * 2;
         return arg;
     }
-}

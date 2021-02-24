@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter3;
-
 public class Hobbits {
 
     String name;

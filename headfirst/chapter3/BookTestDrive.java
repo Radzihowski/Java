@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter3;
-
 public class BookTestDrive {
     public static void main(String[] args) {
 

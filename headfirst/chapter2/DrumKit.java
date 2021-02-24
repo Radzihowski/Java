@@ -1,5 +1,3 @@
-package com.company;
-
 public class DrumKit {
     boolean topHat = true;
     boolean snare = true;

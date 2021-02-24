@@ -1,5 +1,3 @@
-package com.company;
-
 class Echo {
     int count = 0;
 

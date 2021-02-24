@@ -1,5 +1,3 @@
-package com.company;
-
 public class DrumKitTestDrive {
     public static void main(String [] args) {
 

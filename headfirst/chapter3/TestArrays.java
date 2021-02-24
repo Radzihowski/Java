@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter3;
-
 public class TestArrays {
 
     public static void main(String[] args) {

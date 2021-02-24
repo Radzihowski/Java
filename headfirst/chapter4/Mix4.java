@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter4;
-
 public class Mix4 {
     int counter = 0;
     public static void main(String args[]) {

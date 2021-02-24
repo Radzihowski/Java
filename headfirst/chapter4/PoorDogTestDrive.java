@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter4;
-
 public class PoorDogTestDrive {
     public static void main(String[] args) {
         PoorDog one = new PoorDog();

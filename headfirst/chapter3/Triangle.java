@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter3;
-
 public class Triangle {
 
     double area;
