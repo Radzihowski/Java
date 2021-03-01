@@ -1,5 +1,3 @@
-package com.company.headfirst.chapter5;
-
 public class SimpleDotComTestDrive {
     public static void main(String[] args) {
         SimpleDotCom dot = new SimpleDotCom(); //instantiate a SimpleDotCom object
