@@ -30,7 +30,7 @@ public class SimpleDotCom {
         SimpleDotCom theDotCom = new SimpleDotCom();
         int randomNum = (int) (Math.random() * 5);
 
-        int[] location = [randomNum, randomNum + 1, randomNum + 2];
+        int[] location = {randomNum, randomNum + 1, randomNum + 2};
         theDotCom.setLocationCells(location);
         boolean isAlive = true;
 
