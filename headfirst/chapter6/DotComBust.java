@@ -41,7 +41,7 @@ public class DotComBust {
         String result = "miss";
 
         for (DotCom dotComToTest : dotComsList) {
-            result = dotComToTest.checkYourself(dotComToTest);
+            result = dotComToTest.checkYourself(userGuess);
             if (result.equals("hit")) {
                 break;
             }
