@@ -1,4 +1,4 @@
-package chapter6;
+package main;
 import java.io.*;
 
 public class GameHelper {

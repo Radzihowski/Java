@@ -1,3 +1,4 @@
+package main;
 public class MultiFor {
     public static void main(String[] args) {
         for (int x = 0; x < 4; x++) {
