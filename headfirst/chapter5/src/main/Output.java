@@ -1,3 +1,4 @@
+package main;
 public class Output {
     public static void main(String[] args) {
         Output o = new Output();
