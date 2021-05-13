@@ -1,0 +1,14 @@
+# Default ignored files
+# IdeaProjects.iml
+# /out
+# /*
+# !/thirty days
+# !/headfirst
+# !/spam
+# !/CodePractice/
+# /headfirst/headfirst.iml
+
+out/
+*.iml
+.idea/
+target/
