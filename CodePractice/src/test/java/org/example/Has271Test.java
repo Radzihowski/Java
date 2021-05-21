@@ -74,7 +74,7 @@ public class Has271Test {
 
     @Test
     public void testHas27113() {
-        assertEquals(true, Has271.has271(new int[]{1, 1, 4, 9, 0}), "Expected value true");
+        assertEquals(false, Has271.has271(new int[]{1, 1, 4, 9, 0}), "Expected value false");
     }
 
     @Test
