@@ -13,7 +13,7 @@ public class ExtraEndTest {
 
     @Test
     public void testExtraEnd1() {
-        assertEquals("ababab",ExtraEnd.extraEnd("Hello"), "Expected value: ababab" );
+        assertEquals("ababab",ExtraEnd.extraEnd("ab"), "Expected value: ababab" );
     }
 
     @Test
