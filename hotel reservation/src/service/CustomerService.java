@@ -5,14 +5,11 @@ import model.Customer;
 import java.util.*;
 
 public class CustomerService {
-    //    Map<String, Customer> mapOfCustomers = new HashMap<String, Customer>();
     Collection<Customer> customers = new ArrayList<>();
 
     private static CustomerService customerService = null;
 
-    private CustomerService() {
-
-    }
+    private CustomerService() {}
 
     public static CustomerService getInstance() {
         if (null == customerService) {
@@ -29,6 +26,10 @@ public class CustomerService {
     public Customer getCustomer(String customerEmail) {
         Optional<Customer> customer = customers.stream().filter(c -> customerEmail.equals(c.getEmail())).findFirst();
         return customer.orElse(null);
+    }
+
+    public Collection<Customer> getAllCustomers() {
+        return customers;
     }
 
 }
