@@ -28,7 +28,7 @@ public class MinCatTest {
 
     @Test
     public void testMinCat4() {
-        assertEquals("javaello", MinCat.minCat("x", "abc"), "Expected value: javaello");
+        assertEquals("xc", MinCat.minCat("x", "abc"), "Expected value: xc");
     }
 
     @Test
