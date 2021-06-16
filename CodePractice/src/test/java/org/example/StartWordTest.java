@@ -48,7 +48,7 @@ public class StartWordTest {
 
     @Test
     public void testStartWord8() {
-        assertEquals("hip", StartWord.startWord("hip", "zig"), "Expected value: hip");
+        assertEquals("", StartWord.startWord("hip", "zig"), "Expected value: ");
     }
 
     @Test
@@ -63,7 +63,7 @@ public class StartWordTest {
 
     @Test
     public void testStartWord11() {
-        assertEquals("hippo", StartWord.startWord("hippo", "xyz"), "Expected value: hippo");
+        assertEquals("", StartWord.startWord("hippo", "xyz"), "Expected value: ");
     }
 
     @Test
