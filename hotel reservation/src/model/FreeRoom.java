@@ -2,9 +2,8 @@ package model;
 
 public class FreeRoom extends Room {
 
-    public FreeRoom(String roomNumber, Double price, RoomType enumeration) {
-        super(roomNumber, price, enumeration);
-        this.price = 0.0;
+    public FreeRoom(String roomNumber, Double price, RoomType SINGLE, RoomType DOUBLE) {
+        super(roomNumber, 0.0, SINGLE, DOUBLE);
     }
 
     @Override
@@ -14,6 +13,6 @@ public class FreeRoom extends Room {
 
     @Override
     public String toString() {
-        return roomNumber + " " + price + " " + enumeration + " " + isFree();
+        return super.toString();
     }
 }
