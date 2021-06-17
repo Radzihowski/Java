@@ -2,15 +2,44 @@ package model;
 
 public class Room implements IRoom {
 
-    String roomNumber;
-    Double price;
-    RoomType enumeration;
+    private String roomNumber;
+    private Double price;
+    private RoomType SINGLE, DOUBLE;
 
-    public Room(String roomNumber, Double price, RoomType enumeration) {
+    public Room(String roomNumber, Double price, RoomType SINGLE, RoomType DOUBLE) {
         super();
         this.roomNumber = roomNumber;
         this.price = price;
-        this.enumeration = enumeration;
+        this.SINGLE = SINGLE;
+        this.DOUBLE = DOUBLE;
+    }
+
+    public void setRoomNumber(String roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public RoomType getSINGLE() {
+        return SINGLE;
+    }
+
+    public void setSINGLE(RoomType SINGLE) {
+        this.SINGLE = SINGLE;
+    }
+
+    public RoomType getDOUBLE() {
+        return DOUBLE;
+    }
+
+    public void setDOUBLE(RoomType DOUBLE) {
+        this.DOUBLE = DOUBLE;
     }
 
     @Override
@@ -25,16 +54,16 @@ public class Room implements IRoom {
 
     @Override
     public RoomType getRoomType() {
-        return enumeration;
+        return null;
     }
 
     @Override
     public boolean isFree() {
-        return isFree();
+        return false;
     }
 
     @Override
     public String toString() {
-        return roomNumber + " " + price + " " + enumeration + " " + isFree();
+        return roomNumber + " " + price + " " + isFree();
     }
 }
