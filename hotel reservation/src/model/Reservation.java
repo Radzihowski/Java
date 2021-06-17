@@ -38,7 +38,7 @@ public class Reservation {
     public void setCheckInDate() {
         this.checkInDate = checkInDate;
     }
-    
+
     public Date getCheckOutDate() {
         return checkOutDate;
     }
