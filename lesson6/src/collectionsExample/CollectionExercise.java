@@ -10,6 +10,7 @@ public class CollectionExercise {
         listOfItems.add("Bob");
         listOfItems.add("Alice");
 
+        //for each loop
         for ( Object name: listOfItems) {
             System.out.println(name);
         }
