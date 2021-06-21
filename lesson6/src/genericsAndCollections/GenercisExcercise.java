@@ -3,18 +3,19 @@ package genericsAndCollections;
 import java.util.ArrayList;
 
 public class GenercisExcercise {
-    public static void main(String[] args ) {
+    public static void main(String[] args) {
         ArrayList<Object> variables = new ArrayList<Object>();
         Double doubleNumber = 1.5;
         String name = "Sally";
         Integer intNumber = 1;
         Character letter = 'a';
+
         variables.add(doubleNumber);
         variables.add(name);
         variables.add(intNumber);
         variables.add(letter);
 
-        for (Object variable: variables) {
+        for (Object variable : variables) {
             GenercisExcercise.displayClassName(variable);
         }
     }

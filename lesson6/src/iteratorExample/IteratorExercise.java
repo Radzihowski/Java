@@ -1,8 +1,6 @@
 package iteratorExample;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class IteratorExercise {
     public static void main(String[] exercise) {
@@ -12,7 +10,17 @@ public class IteratorExercise {
         names.add("Alice");
         Iterator<String> iterator = names.iterator();
 
-        while(iterator.hasNext()) {
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        Queue<String> strings = new ArrayDeque<>();
+        strings.add("Sally");
+        strings.add("Cesar");
+
+        iterator = strings.iterator();
+
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
