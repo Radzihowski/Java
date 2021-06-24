@@ -11,9 +11,9 @@ import java.util.*;
 
 public class ReservationService {
 
-    private static ReservationService reservationService;
+    private static ReservationService reservationService = null;
     public Collection<Reservation> reservations = new HashSet<>();
-    public Collection<IRoom> rooms = new HashSet<>();
+    public Collection<IRoom> rooms = new ArrayList<>();
 
     private ReservationService() {
     }
