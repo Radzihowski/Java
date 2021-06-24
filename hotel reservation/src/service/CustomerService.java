@@ -8,9 +8,9 @@ import java.util.Optional;
 
 public class CustomerService {
 
-    Collection<Customer> customers = new ArrayList<>();
+    static Collection<Customer> customers = new ArrayList<>();
 
-    private static CustomerService customerService = null;
+    public static CustomerService customerService = null;
 
     private CustomerService() {
     }
