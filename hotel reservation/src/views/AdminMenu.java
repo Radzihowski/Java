@@ -1,11 +1,11 @@
 package views;
 
 import api.AdminResource;
-import model.IRoom;
-import model.Room;
-import model.RoomType;
+import model.*;
+import service.ReservationService;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 
@@ -24,12 +24,15 @@ public class AdminMenu {
 
                     if (selection == 1) {
                         System.out.println("See all Customers");
+                        Collection<Customer>  customers = AdminResource.getInstance().getAllCustomers();
                         keepRunning = false;
                     } else if (selection == 2) {
                         System.out.println("See all Rooms");
+                        Collection<IRoom> rooms = AdminResource.getInstance().getAllRooms();
                         keepRunning = false;
                     } else if (selection == 3) {
                         System.out.println("See all Reservations");
+                        ReservationService.getInstance().printAllReservation();
                         keepRunning = false;
                     } else if (selection == 4) {
                         System.out.println("Add a Room");
