@@ -1,5 +1,11 @@
 package views;
 
+import model.Customer;
+import model.Reservation;
+import service.ReservationService;
+
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class MainMenu {
@@ -23,9 +29,22 @@ public class MainMenu {
                         keepRunning = false;
                     } else if (selection == 3) {
                         System.out.println("3. Create an account");
+                        Scanner userInput = new Scanner(System.in);
+                        System.out.println("--------------------------------------------");
+                        System.out.println("Enter email in format: name@domain.com");
+                        String email = userInput.next();
+                        System.out.println("First Name: ");
+                        String firstName = userInput.next();
+                        System.out.println("Last Name: ");
+                        String lastName = userInput.next();
+                        System.out.println("--------------------------------------------");
+                        System.out.println("Please make your selection");
+                        System.out.println("--------------------------------------------");
+                        Collection<Customer> customers = new HashSet<>();
                         keepRunning = false;
                     } else if (selection == 4) {
                         System.out.println("4. Admin");
+                        AdminMenu adminMenu = new AdminMenu();
                         keepRunning = false;
                     } else if (selection == 5) {
                         System.out.println("5. Exit");
