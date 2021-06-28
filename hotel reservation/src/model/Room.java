@@ -4,43 +4,30 @@ public class Room implements IRoom {
 
     private String roomNumber;
     private Double price;
-    private RoomType SINGLE, DOUBLE;
+    private RoomType roomType;
 
-    public Room(String roomNumber, Double price, RoomType SINGLE, RoomType DOUBLE) {
+    public Room(String roomNumber, Double price, RoomType roomType) {
         super();
         this.roomNumber = roomNumber;
         this.price = price;
-        this.SINGLE = SINGLE;
-        this.DOUBLE = DOUBLE;
+        this.roomType = roomType;
     }
 
-    public void setRoomNumber(String roomNumber) {
-        this.roomNumber = roomNumber;
-    }
-
-    public Double getPrice() {
-        return price;
-    }
-
-    public void setPrice(Double price) {
-        this.price = price;
-    }
-
-    public RoomType getSINGLE() {
-        return SINGLE;
-    }
-
-    public void setSINGLE(RoomType SINGLE) {
-        this.SINGLE = SINGLE;
-    }
-
-    public RoomType getDOUBLE() {
-        return DOUBLE;
-    }
-
-    public void setDOUBLE(RoomType DOUBLE) {
-        this.DOUBLE = DOUBLE;
-    }
+//    public void setRoomNumber(String roomNumber) {
+//        this.roomNumber = roomNumber;
+//    }
+//
+//    public Double getPrice() {
+//        return price;
+//    }
+//
+//    public void setPrice(Double price) {
+//        this.price = price;
+//    }
+//
+//    public void setRoomType(RoomType roomType) {
+//        this.roomType = roomType;
+//    }
 
     @Override
     public String getRoomNumber() {
@@ -54,7 +41,7 @@ public class Room implements IRoom {
 
     @Override
     public RoomType getRoomType() {
-        return null;
+        return roomType;
     }
 
     @Override
