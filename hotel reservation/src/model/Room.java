@@ -13,21 +13,20 @@ public class Room implements IRoom {
         this.roomType = roomType;
     }
 
-//    public void setRoomNumber(String roomNumber) {
-//        this.roomNumber = roomNumber;
-//    }
-//
-//    public Double getPrice() {
-//        return price;
-//    }
-//
-//    public void setPrice(Double price) {
-//        this.price = price;
-//    }
-//
-//    public void setRoomType(RoomType roomType) {
-//        this.roomType = roomType;
-//    }
+    public void setRoomNumber(String roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public void setRoomType(RoomType roomType) {
+        this.roomType = roomType;
+    }
 
     @Override
     public String getRoomNumber() {
