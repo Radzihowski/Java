@@ -3,10 +3,7 @@ package service;
 import model.Customer;
 import model.IRoom;
 import model.Reservation;
-import model.Room;
 
-import javax.swing.text.html.Option;
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class ReservationService {

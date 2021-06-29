@@ -33,7 +33,7 @@ public class AdminMenu {
 //                        keepRunning = false;
                     } else if (selection == 3) {
                         System.out.println("See all Reservations");
-                        ReservationService.getInstance().printAllReservation();
+                        AdminResource.getInstance().displayAllReservations();
 //                        keepRunning = false;
                     } else if (selection == 4) {
                         System.out.println("Add a Room");
