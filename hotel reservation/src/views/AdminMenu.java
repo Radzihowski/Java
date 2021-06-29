@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class AdminMenu {
+    private static final  AdminResource adminResource = AdminResource.getInstance();
     public void start() {
         boolean keepRunning = true;
         try (Scanner scanner = new Scanner(System.in)) {
@@ -25,18 +26,18 @@ public class AdminMenu {
                     if (selection == 1) {
                         System.out.println("See all Customers");
                         Collection<Customer>  customers = AdminResource.getInstance().getAllCustomers();
-                        keepRunning = false;
+//                        keepRunning = false;
                     } else if (selection == 2) {
                         System.out.println("See all Rooms");
                         Collection<IRoom> rooms = AdminResource.getInstance().getAllRooms();
-                        keepRunning = false;
+//                        keepRunning = false;
                     } else if (selection == 3) {
                         System.out.println("See all Reservations");
                         ReservationService.getInstance().printAllReservation();
-                        keepRunning = false;
+//                        keepRunning = false;
                     } else if (selection == 4) {
                         System.out.println("Add a Room");
-                        keepRunning = false;
+//                        keepRunning = false;
                         addARoom(scanner);
                     } else if (selection == 5) {
                         System.out.println("Back to Main Menu");
