@@ -9,6 +9,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class MainMenu {
+
     public void start() {
         boolean keepRunning = true;
         try (Scanner scanner = new Scanner(System.in)) {
@@ -23,10 +24,10 @@ public class MainMenu {
 
                     if (selection == 1) {
                         System.out.println("1. Find and reserve a room");
-                        keepRunning = false;
+//                        keepRunning = false;
                     } else if (selection == 2) {
                         System.out.println("2. See my reservations");
-                        keepRunning = false;
+//                        keepRunning = false;
                     } else if (selection == 3) {
                         System.out.println("3. Create an account");
                         Scanner userInput = new Scanner(System.in);
@@ -41,12 +42,13 @@ public class MainMenu {
                         System.out.println("Please make your selection");
                         System.out.println("--------------------------------------------");
                         Collection<Customer> customers = new HashSet<>();
-                        keepRunning = false;
+//                        keepRunning = false;
                     } else if (selection == 4) {
                         System.out.println("4. Admin");
                         AdminMenu adminMenu = new AdminMenu();
-                        keepRunning = false;
+//                        keepRunning = false;
                     } else if (selection == 5) {
+                        System.out.println("--------------------------------------------");
                         System.out.println("5. Exit");
                         keepRunning = false;
                     } else {
