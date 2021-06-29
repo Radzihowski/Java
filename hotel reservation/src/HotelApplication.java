@@ -1,8 +1,8 @@
 import views.MainMenu;
 
 public class HotelApplication {
-
     public static void main(String[] args) {
-        MainMenu.mainMenu();
+        MainMenu mainMenu = new MainMenu();
+        mainMenu.start();
     }
 }
