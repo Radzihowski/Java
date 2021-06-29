@@ -23,13 +23,13 @@ public class MainMenu {
                     int selection = Integer.parseInt(scanner.next());
 
                     if (selection == 1) {
-                        System.out.println("1. Find and reserve a room");
+                        System.out.println("1. Find and reserve a room has been selected");
 //                        keepRunning = false;
                     } else if (selection == 2) {
-                        System.out.println("2. See my reservations");
+                        System.out.println("2. See my reservations has been selected");
 //                        keepRunning = false;
                     } else if (selection == 3) {
-                        System.out.println("3. Create an account");
+                        System.out.println("3. Create an account has been selected");
                         Scanner userInput = new Scanner(System.in);
                         System.out.println("--------------------------------------------");
                         System.out.println("Enter email in format: name@domain.com");
@@ -44,12 +44,14 @@ public class MainMenu {
                         Collection<Customer> customers = new HashSet<>();
 //                        keepRunning = false;
                     } else if (selection == 4) {
-                        System.out.println("4. Admin");
+                        System.out.println("--------------------------------------------");
+                        System.out.println("4. Admin has been selected");
                         AdminMenu adminMenu = new AdminMenu();
+                        adminMenu.start();
 //                        keepRunning = false;
                     } else if (selection == 5) {
                         System.out.println("--------------------------------------------");
-                        System.out.println("5. Exit");
+                        System.out.println("5. Exit has been selected");
                         keepRunning = false;
                     } else {
                         System.out.println("Please select menu between 1 and 5");
