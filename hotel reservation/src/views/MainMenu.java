@@ -46,6 +46,7 @@ public class MainMenu {
                     } else if (selection == 4) {
                         System.out.println("4. Admin");
                         AdminMenu adminMenu = new AdminMenu();
+                        adminMenu.start();
 //                        keepRunning = false;
                     } else if (selection == 5) {
                         System.out.println("--------------------------------------------");
