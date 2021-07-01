@@ -8,20 +8,16 @@ package org.example;
 
 public class SwapEnds {
     public static int[] swapEnds(int[] nums) {
-//        int[] result = new int[nums.length];
-//        for (int i = 0; i < nums.length; i++) {
-//            result[i] = nums[i];
-//            if ( i == 0 ) {
-//                result[0] = nums[nums.length-1];
-//            }
-//            if ( i == nums.length-1) {
-//                result[nums.length-1] = nums[0];
-//            }
-//        }
-//        return result;
-        int[] result = nums;
-        result[0] = nums[nums.length-1];
-        result[result.length-1] = nums[0];
+        int[] result = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            result[i] = nums[i];
+            if ( i == 0 ) {
+                result[0] = nums[nums.length-1];
+            }
+            if ( i == nums.length-1) {
+                result[nums.length-1] = nums[0];
+            }
+        }
         return result;
     }
 }
