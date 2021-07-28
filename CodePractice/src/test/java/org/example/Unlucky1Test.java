@@ -25,77 +25,77 @@ public class Unlucky1Test {
 
     @Test
     public void testUnlucky13() {
-        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: true");
+        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 3, 1}), "Expected value: true");
     }
 
     @Test
     public void testUnlucky14() {
-        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: true");
+        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 3}), "Expected value: true");
     }
 
     @Test
     public void testUnlucky15() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 2, 3}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky16() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{3, 3, 3}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky17() {
-        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: true");
+        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 3}), "Expected value: true");
     }
 
     @Test
     public void testUnlucky18() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 4}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky19() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{1}), "Expected value: false");
     }
     @Test
 
     public void testUnlucky110() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky111() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1, 3, 1}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky112() {
-        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: true");
+        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 3, 1, 1}), "Expected value: true");
     }
 
     @Test
     public void testUnlucky113() {
-        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: true");
+        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 1, 1, 3}), "Expected value: true");
     }
 
     @Test
     public void testUnlucky114() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 4, 1, 5}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky115() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 2, 3}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky116() {
-        assertEquals(false, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: false");
+        assertEquals(false, Unlucky1.unlucky1(new int[]{2, 3, 2, 1}), "Expected value: false");
     }
 
     @Test
     public void testUnlucky117() {
-        assertEquals(true, Unlucky1.unlucky1(new int[]{1, 1, 1}), "Expected value: true");
+        assertEquals(true, Unlucky1.unlucky1(new int[]{2, 3, 1, 3}), "Expected value: true");
     }
 
     @Test
