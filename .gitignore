@@ -12,3 +12,8 @@ out/
 *.iml
 .idea/
 target/
+maven-wrapper.jar
+maven-wrapper.properties
+MavenWrapperDownloader.java
+SweaterApplicationTests.java
+sweater/.mvn/wrapper
